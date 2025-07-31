@@ -24,5 +24,8 @@ class ClassicController extends Controller
         if (!file_exists($caminho)){
             abort(404, "Imagem não encontrada");
         }
+
+        echo "Deu certo";
+
     }
 }
